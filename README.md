@@ -1,5 +1,7 @@
 # 3D Model Generation
 
+![Single Image to 3D Example](./ExamplesSingleImageTo3D.png)
+
 This repository represents MIRALab’s contribution to the 3D generation component of the ENIGMA project, which focuses on the digital reconstruction of fragmented and damaged Cultural Heritage (CH) objects. Within ENIGMA, our objective is to support the transformation of incomplete visual evidence into usable three-dimensional digital assets that can assist research, restoration analysis, documentation, and immersive visualization workflows. Cultural heritage artifacts such as vases, busts, tablets, steles, and other transportable objects are frequently preserved in partial or degraded states. This creates a fundamental challenge on how to generate plausible and structurally coherent 3D representations from limited observations, often derived from a single image. 
 
 This repository makes it possible to generate 3D meshs from single-view images through an API-driven service build by MIRALab. Our development allows for deployment stability and integration. The system packages upstream generative 3D technology into a containerized service that exposes a stable HTTP endpoint, enabling diverse applications to programmatically request 3D reconstructions and receive ready-to-use mesh outputs in standard formats. 
